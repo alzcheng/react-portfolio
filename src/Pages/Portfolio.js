@@ -24,7 +24,6 @@ const Portfolio = () => {
           deployed_href={project.deployed_href}
         />
       ))}
-      <img src="./Components/Images/portfolio_SS/SS_U_Connect_App.png" alt="test"></img>
     </div>
   )
 }
