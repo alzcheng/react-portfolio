@@ -1,4 +1,4 @@
-# My Professional Porfolio 
+# My React Professional Porfolio 
 
 ## Description
 
@@ -8,11 +8,13 @@ I've created my portfolio page that has an About page and a Portfolio page.
 * HTML 
 * CSS
 * Bootstrap
+* React
+* React-router-dom
 
 ## About Page
 ### Screenshot of page
 
-![About Page](./assets/images/readme_images/aboutPageSS.png)
+![About Page](./src/Components/Images/app_screenshots/AboutMe.png)
 
 ### Features 
 
@@ -28,7 +30,7 @@ This page has the following sections:
 ## Portfolio Page
 ### Screenshot of page
 
-![Portfolio Page](./assets/images/readme_images/portfolioPageSS.png)
+![Portfolio Page](./src/Components/Images/app_screenshots/Portfolio.png)
 
 ### Features 
 
@@ -36,4 +38,4 @@ This page has a section for each of my projects.  These projects have a Github R
 
 ## Link to Portfolio
 
-[Click Here to go to my portfolio.](https://alzcheng.github.io/officialPortfolio/)
+[Click Here to go to my portfolio.](https://react-portfolio-515.herokuapp.com/)
