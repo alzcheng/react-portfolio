@@ -1,10 +1,26 @@
-import SS_burgerapp from '../Images/portfolio_SS/SS_burgerapp.png';
-import SS_movieLover from '../Images/portfolio_SS/SS_movieLover.png';
+import SS_HoWapp from '../Images/portfolio_SS/SS_HoWapp.png';
+import SS_google_books_search from '../Images/portfolio_SS/SS_google_books_search.png';
 import SS_U_Connect_App from '../Images/portfolio_SS/SS_U_Connect_App.png';
 import SS_weatherDashboard from '../Images/portfolio_SS/SS_weatherDashboard.png';
 import SS_workdayScheduler from '../Images/portfolio_SS/SS_workdayScheduler.png';
 
 const CardInfo = [
+  {
+    title: "Hall of Whispers",
+    description: "This application is a collaborative React project designed to allow users to connect with others and create Dungeons and Dragons style adventures. RESTful server requests and responses enable CRUD functionality saved in a Mongo Database. A persistent connection with websockets (in the form of websocket.io) allows users to communicate with one another through direct messages enabled via handshaking.",
+    screenshot: SS_HoWapp,
+    git_href: "https://github.com/alzcheng/HallofWhispers",
+    deployed_href: "https://hallofwhispers.herokuapp.com/"
+  },
+
+  {
+    title: "Google Book Search",
+    description: "This is a MERN stack application that includes 2 pages. The first page is a list of saved books in the database, where the user can either view the books on Google Books or delete the books from the database. The second page is a search page, where the user can search for books using the Google Books API. The user can view the book on Google Books or save them to the database.",
+    screenshot: SS_google_books_search,
+    git_href: "https://github.com/alzcheng/google-books-search",
+    deployed_href: "https://react-google-books-search-515.herokuapp.com/"
+  },
+
   {
     title: "U-Connect App",
     description: "This is a marketplace for users to find, buy, and sell their connections to others for a price. The user must register into the marketplace.",
@@ -13,21 +29,7 @@ const CardInfo = [
     deployed_href: "https://uconnect-myproj2.herokuapp.com/"
   },
 
-  {
-    title: "Burger Eater App",
-    description: "This application allows user to enter a description of the burger. It then generates a burger and a devour button. When button is clicked, burger is added to the list of Devoured Burgers.",
-    screenshot: SS_burgerapp,
-    git_href: "https://github.com/alzcheng/burger",
-    deployed_href: "https://burgereater-16299.herokuapp.com/"
-  },
 
-  {
-    title: "Movie Love Calculator",
-    description: "This is an application that takes in a movie title and your first name, and output movie information and your love compatibility with the 4 lead actors/actresses of the movie.",
-    screenshot: SS_movieLover,
-    git_href: "https://github.com/alzcheng/movieLover",
-    deployed_href: "https://alzcheng.github.io/movieLover/"
-  },
 
   {
     title: "Weather Dashboard",
